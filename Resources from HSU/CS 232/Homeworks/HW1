@@ -1,0 +1,112 @@
+# CS232-01-HW1.py
+# Joshua P. Barnard
+# Last Modified: 2/11/2016
+#____________________________________________________________
+
+
+# Problem 1
+# return_value:  float float float -> float
+# purpose:  Expects three numeric (float) values
+#           returns the multiples within the first two
+# side_effects:  prints a message containing the multiples
+#                within the starting and ending values
+
+
+def multiples_in_range(step, start, end):
+    for i in range(start, end, step):
+        print(i)
+
+
+#____________________________________________________________
+
+
+# Problem 2
+# return_value:  float -> string
+# purpose:  Expects a numeric (float) value
+#           returns a string
+# side_effects:  returns a single character representing the
+#                grade baed on the inputed float value.
+
+
+def grade(score):
+    if score < 60:
+        print "Your Grade is an F"
+    elif score < 64:
+        print "Your Grade is a D-"
+    elif score < 67:
+        print "Your Grade is a D"
+    elif score < 70:
+        print "Your Grade is a D+"
+    elif score < 74:
+        print "Your Grade is a C-"
+    elif score < 77:
+        print "Your Grade is a C"
+    elif score < 80:
+        print "Your Grade is a C+"
+    elif score < 84:
+        print "Your Grade is a B-"
+    elif score < 87:
+        print "Your Grade is a B"
+    elif score < 90:
+        print "Your Grade is a B+"
+    elif score < 94:
+        print "Your Grade is a A-"
+    else:
+        print "Your Grade is a A"
+
+
+
+
+#____________________________________________________________
+
+# Problem 3
+# return_value:  [float, int, or string]  ->  [float, int, or string]
+# purpose:  Expects a float, integer, or string
+#           returns the a float, integer, or string respectively.
+# side_effects:  
+#                
+
+def bump_it(val):
+    if type(val) == type(5):
+        val = val + 1
+#        statement = 'The new value of your integer is: ' + repr(val)
+#        print statement
+        return val
+
+    elif type(val) == type(5.5):
+        val = val + 0.1
+#        statement = 'The new value of your float is: ' + repr(val)
+#        print statement
+        return val
+
+    elif type(val) == type("hehe"):
+        return val + "!"
+
+    else:
+        return val
+        
+
+
+
+
+#____________________________________________________________
+
+# Problem 4
+# return_value:  float float float -> float
+# purpose:  Expects three numeric (float) values
+#           returns the multiples within the first two
+# side_effects:  prints a message containing the multiples
+#                within the starting and ending values
+
+
+
+
+
+#____________________________________________________________
+
+# Problem 5
+# return_value:  float float float -> float
+# purpose:  Expects three numeric (float) values
+#           returns the multiples within the first two
+# side_effects:  prints a message containing the multiples
+#                within the starting and ending values

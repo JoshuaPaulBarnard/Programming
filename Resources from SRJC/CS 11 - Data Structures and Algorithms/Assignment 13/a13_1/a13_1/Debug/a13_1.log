@@ -1,0 +1,4 @@
+﻿  binarytree.cpp
+c:\users\jbarn\documents\academia\cs 11\assignment 13\a13_1\a13_1\binarytree.cpp(189): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  a13_1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 13\a13_1\Debug\a13_1.exe
+  a13_1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 13\a13_1\Debug\a13_1.pdb (Partial PDB)

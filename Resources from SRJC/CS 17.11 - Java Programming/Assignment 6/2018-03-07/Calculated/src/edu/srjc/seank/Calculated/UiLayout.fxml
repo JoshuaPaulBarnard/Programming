@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="401.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.srjc.seank.Calculated.UiController">
+   <children>
+      <Label layoutX="58.0" layoutY="76.0" text="First Number" />
+      <Label layoutX="58.0" layoutY="117.0" text="Second Number" />
+      <TextField fx:id="txtFirstNumber" layoutX="170.0" layoutY="71.0" />
+      <TextField fx:id="txtSecondNumber" layoutX="170.0" layoutY="112.0" />
+      <Button fx:id="btnPlus" layoutX="170.0" layoutY="162.0" mnemonicParsing="false" onAction="#btnAll_Click" text="+" />
+      <Button fx:id="btnMinus" layoutX="214.0" layoutY="162.0" mnemonicParsing="false" onAction="#btnAll_Click" prefHeight="26.0" prefWidth="29.0" text="-" />
+      <Button fx:id="btnMultiply" layoutX="262.0" layoutY="162.0" mnemonicParsing="false" onAction="#btnAll_Click" prefHeight="26.0" prefWidth="29.0" text="*" />
+      <Button fx:id="btnDivide" layoutX="312.0" layoutY="162.0" mnemonicParsing="false" onAction="#btnAll_Click" prefHeight="26.0" prefWidth="29.0" text="/" />
+      <Label layoutX="58.0" layoutY="210.0" text="The Answer" />
+      <TextField fx:id="txtTheAnswer" editable="false" layoutX="170.0" layoutY="205.0" />
+   </children>
+</AnchorPane>

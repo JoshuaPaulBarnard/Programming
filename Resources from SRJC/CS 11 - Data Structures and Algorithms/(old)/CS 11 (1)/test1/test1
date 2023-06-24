@@ -1,0 +1,116 @@
+/*
+Joshua Paul Barnard
+CS 11 - SRJC
+Spring 2017
+Assignment 1 - 1
+*/
+
+#include <iostream>
+
+using namespace std;
+
+void noNegatives(int *a);
+void swap(int *s1, int *s2);
+
+int main() {
+    int x, y;
+    int *p1;
+
+    p1 = &x;
+    *p1 = 99;
+
+    // # 5 & 6
+    cout << endl << "Questions 5 & 6:" << endl;
+    cout << "x is: " << x << endl;
+    cout << "p1 is: " << *p1 << endl << endl;
+
+    p1 = &y;
+    *p1 = -300;
+
+    int temp;
+    int *p2;
+
+    p2 = &x;
+
+    // #10:  Switching the values of x and y
+    temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+
+    //Unassigned Check
+    //cout << "x is: " << x << endl;
+    //cout << "y is: " << y << endl;
+
+    // #12:  Setting negatives to zero
+    noNegatives(&x);
+    noNegatives(&y);
+
+    // #13:  Assigned Output using p2
+    cout << "Question 13" << endl;
+    p2 = &x;
+    cout << "x is: " << *p2 << endl;
+    p2 = &y;
+    cout << "y is: " << *p2 << endl << endl;
+
+    // #14:  Create Array
+    int* a[2] = {p2};
+
+    // #15:
+    p2 = &x;
+    a[0] = p2;
+
+    // #16
+    p2 = &y;
+    a[1] = p2;
+
+    // #17
+    cout << "Questions 17 & 18:" << endl;
+    cout << "The adress of the First Element of array a is: " << *p2 << endl;
+
+    // #18
+    cout << "The adress of the Second Element of array a is: " << *p2 << endl << endl;
+
+    // #19
+    p1 = a[0];
+    p2 = a[1];
+
+    temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+
+    // #20
+    cout << "Question 20:" << endl;
+    cout << "a[0] is: " << *a[0] << endl;
+    cout << "a[1] is: " << *a[1] << endl << endl;
+
+    // #22
+    swap(&x, &y);
+    cout << "Question 22:" << endl;
+    cout << "x is: " << x << endl;
+    cout << "y is: " << y << endl << endl;
+
+    // #23
+    swap(a[0], a[1]);
+    cout << "Question 23:" << endl;
+    cout << "a[0] is: " << *a[0] << endl;
+    cout << "a[1] is: " << *a[1] << endl << endl;
+
+return 0;
+}
+
+// #11
+void noNegatives(int *x) {
+
+    if(*x < 0) {
+        *x = 0;
+    }
+}
+
+// #21
+void swap(int *s1, int *s2) {
+    int Temp;
+
+    Temp = *s1;
+    *s1 = *s2;
+    *s2 = Temp;
+}

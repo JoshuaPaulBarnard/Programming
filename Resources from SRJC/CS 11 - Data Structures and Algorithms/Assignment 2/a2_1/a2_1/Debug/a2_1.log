@@ -1,0 +1,4 @@
+﻿  a2_1.cpp
+c:\users\jbarn\documents\academia\cs 11\assignment 2\a2_1\a2_1\a2_1.cpp(108): warning C4715: 'isPalindrome': not all control paths return a value
+  a2_1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 2\a2_1\Debug\a2_1.exe
+  a2_1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 2\a2_1\Debug\a2_1.pdb (Partial PDB)

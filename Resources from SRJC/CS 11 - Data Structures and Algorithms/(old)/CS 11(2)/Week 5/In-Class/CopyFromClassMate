@@ -1,0 +1,55 @@
+namespace cs_mystring
+{
+  MyString:: MyString()
+  {
+    content = new char[1];
+    strcpy(content, "");
+  }
+
+  MyString:: MyString(const char* inString)
+  {
+    content = new char[strlen(inString) + 1];
+    strcpy(content, inString);
+  }
+
+  std::ostream& operator<<(std::ostream& out, const MyString& inString)
+  {
+    out << inString[count];
+    return out;
+  }
+}
+
+}
+bool operator<(const MyString& leftOperand, const MyString& rightOperand)
+{
+  for (int count = 0, count < strlen(leftOperand.content + 1), count ++)
+    if (leftOperand.content[count] < rightOperand.content[count])
+    {
+      lessThan = true;
+    }
+    else
+    {
+      lessThan = false;
+      break;
+    }
+  return lessThan;
+}
+
+
+
+int MyString::length(const MyString& inString)
+{
+  int length = strlen(inString.content);
+  return length;
+}
+
+MyString MyString:: operator=(const MyString& rightOperand)
+{
+    if (*this != &rightOperand)
+    {
+    delete[] content;
+    content = new char[strlen(rightOperand.content) + 1];
+    strcpy(content, rightOperand.content);
+    }
+    return *this;
+}

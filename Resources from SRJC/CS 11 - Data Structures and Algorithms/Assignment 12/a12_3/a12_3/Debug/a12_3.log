@@ -1,0 +1,4 @@
+﻿  a12_3.cpp
+c:\users\jbarn\documents\academia\cs 11\assignment 12\a12_3\a12_3\a12_3.cpp(21): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  a12_3.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 12\a12_3\Debug\a12_3.exe
+  a12_3.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 12\a12_3\Debug\a12_3.pdb (Partial PDB)

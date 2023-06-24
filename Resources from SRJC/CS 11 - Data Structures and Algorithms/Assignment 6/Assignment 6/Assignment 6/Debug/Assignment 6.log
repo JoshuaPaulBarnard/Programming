@@ -1,0 +1,9 @@
+﻿  mystring.cpp
+c:\users\jbarn\documents\academia\cs 11\assignment 6\assignment 6\assignment 6\mystring.cpp(176): warning C4018: '<': signed/unsigned mismatch
+c:\users\jbarn\documents\academia\cs 11\assignment 6\assignment 6\assignment 6\mystring.cpp(187): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...
+  Assignment 6.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 6\Assignment 6\Debug\Assignment 6.exe
+  Assignment 6.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 6\Assignment 6\Debug\Assignment 6.pdb (Partial PDB)

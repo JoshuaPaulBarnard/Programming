@@ -1,0 +1,2 @@
+May 02, 2018 6:48:08 PM spacejava_01_05_10.Main main
+INFO: ::::::::::::::::::Init Logging::::::::::::::::::

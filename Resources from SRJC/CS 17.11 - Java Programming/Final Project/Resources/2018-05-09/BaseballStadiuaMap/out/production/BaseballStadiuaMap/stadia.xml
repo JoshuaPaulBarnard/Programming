@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <row>
+        <team>Anaheim Angels</team>
+        <address>2000 Gene Autry Way, Anaheim, CA. 92806</address>
+        <lat>33.799572</lat>
+        <lng>-117.889031</lng>
+    </row>
+    <row>
+        <team>Arizona Diamondbacks</team>
+        <address>P.O. Box 2095, Phoenix, AZ. 85001</address>
+        <lat>33.452922</lat>
+        <lng>-112.038669</lng>
+    </row>
+    <row>
+        <team>Atlanta Braves</team>
+        <address>P.O. Box 4064, Atlanta, GA. 30302</address>
+        <lat>33.74691</lat>
+        <lng>-84.391239</lng>
+    </row>
+    <row>
+        <team>Baltimore Orioles</team>
+        <address>333 W. Camden Street, Baltimore, MD. 21201</address>
+        <lat>39.285243</lat>
+        <lng>-76.620103</lng>
+    </row>
+    <row>
+        <team>Boston Red Sox</team>
+        <address>4 Yawkey Way, Boston, MA 02215</address>
+        <lat>42.346613</lat>
+        <lng>-71.098817</lng>
+    </row>
+    <row>
+        <team>Chicago Cubs</team>
+        <address>1060 Addison Street, Chicago, IL 60616</address>
+        <lat>41.947201</lat>
+        <lng>-87.656413</lng>
+    </row>
+    <row>
+        <team>Chicago White Sox</team>
+        <address>333 W. 35th Street, Chicago, IL 60616</address>
+        <lat>41.830883</lat>
+        <lng>-87.635083</lng>
+    </row>
+    <row>
+        <team>Cincinnati Reds</team>
+        <address>100 Cinergy Field, Cincinnati, OH 45202</address>
+        <lat>39.107183</lat>
+        <lng>-84.507713</lng>
+    </row>
+    <row>
+        <team>Cleveland Indians</team>
+        <address>2401 Ontario Street, Cleveland, OH 44115</address>
+        <lat>41.495149</lat>
+        <lng>-81.68709</lng>
+    </row>
+    <row>
+        <team>Colorado Rockies</team>
+        <address>Coors Field, 2001 Blake Street, Denver, CO 80205-2000</address>
+        <lat>39.75698</lat>
+        <lng>-104.965329</lng>
+    </row>
+    <row>
+        <team>Detroit Tigers</team>
+        <address>Comerica Park, 2100 Woodward Ave., Detroit, MI 48201</address>
+        <lat>42.346354</lat>
+        <lng>-83.059619</lng>
+    </row>
+    <row>
+        <team>Florida Marlins</team>
+        <address>2269 NW 199th Street, Miami, FL 33056</address>
+        <lat>25.954428</lat>
+        <lng>-80.238164</lng>
+    </row>
+    <row>
+        <team>Houston Astros</team>
+        <address>P.O. Box 288, Houston, TX 77001-0288</address>
+        <lat>29.76045</lat>
+        <lng>-95.369784</lng>
+    </row>
+    <row>
+        <team>Kansas City Royals</team>
+        <address>P.O. Boz 419969, Kansas City, MO 64141</address>
+        <lat>39.10222</lat>
+        <lng>-94.583559</lng>
+    </row>
+    <row>
+        <team>Los Angeles Dodgers</team>
+        <address>1000 Elysian Park Ave., Los Angeles, CA 90012</address>
+        <lat>34.072437</lat>
+        <lng>-118.246879</lng>
+    </row>
+    <row>
+        <team>Milwaukee Brewers</team>
+        <address>P.O. Box 3099, Milwaukee, WI 53201-3099</address>
+        <lat>43.04205</lat>
+        <lng>-87.905599</lng>
+    </row>
+    <row>
+        <team>Minnesota Twins</team>
+        <address>501 Chicago Ave. S., Minneapolis, MN 55415</address>
+        <lat>44.974346</lat>
+        <lng>-93.259616</lng>
+    </row>
+    <row>
+        <team>Washington Nationals</team>
+        <address>1500 South Capitol Street SE, Washington, DC</address>
+        <lat>38.87</lat>
+        <lng>-77.01</lng>
+    </row>
+    <row>
+        <team>New York Mets</team>
+        <address>Roosevelt Ave &amp; 126th Street, New York, NY 11368</address>
+        <lat>40.75535</lat>
+        <lng>-73.843219</lng>
+    </row>
+    <row>
+        <team>New York Yankees</team>
+        <address>Yankee Stadium, E. 161 Street &amp; River Ave., New York, NY 10451</address>
+        <lat>40.819782</lat>
+        <lng>-73.929939</lng>
+    </row>
+    <row>
+        <team>Oakland Athletics</team>
+        <address>Oakland Coliseum, 700 Coliseum Way, Oakland, Ca 94621-1918</address>
+        <lat>37.74923</lat>
+        <lng>-122.196487</lng>
+    </row>
+    <row>
+        <team>Philadelphia Phillies</team>
+        <address>P.O. Box 7575, Philadelphia, PA 19101</address>
+        <lat>39.952313</lat>
+        <lng>-75.162392</lng>
+    </row>
+    <row>
+        <team>Pittsburgh Pirates</team>
+        <address>600 Stadium Circle, Pittsburgh, PA 15212</address>
+        <lat>40.461503</lat>
+        <lng>-80.008924</lng>
+    </row>
+    <row>
+        <team>St. Louis Cardinals</team>
+        <address>250 Stadium Plaza, St. Louis, MO 63102</address>
+        <lat>38.629683</lat>
+        <lng>-90.188247</lng>
+    </row>
+    <row>
+        <team>San Diego Padres</team>
+        <address>P.O. Box 2000, San Diego, CA 92112-2000</address>
+        <lat>32.752148</lat>
+        <lng>-117.143635</lng>
+    </row>
+    <row>
+        <team>San Francisco Giants</team>
+        <address>Pacific Bell Park, 24 Willie Mays Plaza, San Francisco, CA 94107</address>
+        <lat>37.77987</lat>
+        <lng>-122.389754</lng>
+    </row>
+    <row>
+        <team>Seattle Mariners</team>
+        <address>P.O. Box 41000, 411 First Ave. S., Seattle, WA 98104</address>
+        <lat>47.60174</lat>
+        <lng>-122.330829</lng>
+    </row>
+    <row>
+        <team>Tampa Bay Devil Rays</team>
+        <address>1 Tropicana Drive, St. Petersburg, FL 33705</address>
+        <lat>27.768487</lat>
+        <lng>-82.648191</lng>
+    </row>
+    <row>
+        <team>Texas Rangers</team>
+        <address>1000 Ballpark Way, Arlington, TX 76011</address>
+        <lat>32.750156</lat>
+        <lng>-97.081117</lng>
+    </row>
+    <row>
+        <team>Toronto Blue Jays</team>
+        <address>1 Blue Jay Way, Suite 3200, Toronto, ONT M5V 1J1</address>
+        <lat>43.641653</lat>
+        <lng>-79.3917</lng>
+    </row>
+</root>

@@ -1,2 +1,2 @@
 # Programming-Tools
- A general repository for my programming tools
+ A collection of my general programming projects and resources.

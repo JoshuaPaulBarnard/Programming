@@ -1,0 +1,12 @@
+Adventure is a text-based adventure game inspired by Dunnet, the game that ships with the Emacs text editor.
+
+To play the game, compile all files with 'javac *.java' and run with 'java Main.java'.
+
+This project was designed so that creating highly customizable levels was extremely easy. To do so, follow the example in Map.java. If you have difficulties, follow these steps:
+
+1. Open Map.java
+2. Create a new public static method, with the return type Room and no arguments.
+3. Instantiate a Room object, and return it in the function.
+4. Lastly, open Game.java, and add the level to the menu by editing the chooseLevel function.
+
+Written by Skyler Lutz.

@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+int MyString::length() const
+{
+  return strlen(string);
+}
+
+
+
+
+
+
+
+void MyString::setInfo(const char* inString)
+{
+  delete[] string;
+  string = new char[strlen(inString) + 1];
+  strcpy(string, inString)
+
+}
+
+
+
+
+
+
+std::ostream& operator<<(std::ostream& out, const MyString& source)
+{
+  out << source.string;
+  return out;
+}
+
+
+
+
+
+std::istream& operator >> (std::istream& in, MyString& )

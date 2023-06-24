@@ -1,0 +1,5 @@
+﻿  mystring.cpp
+c:\users\jbarn\documents\academia\cs 11\assignment 5\a5-1\a5-1\mystring.cpp(186): warning C4018: '<': signed/unsigned mismatch
+c:\users\jbarn\documents\academia\cs 11\assignment 5\a5-1\a5-1\mystring.cpp(197): warning C4018: '<': signed/unsigned mismatch
+  a5-1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 5\a5-1\Debug\a5-1.exe
+  a5-1.vcxproj -> C:\Users\jbarn\Documents\Academia\CS 11\Assignment 5\a5-1\Debug\a5-1.pdb (Partial PDB)

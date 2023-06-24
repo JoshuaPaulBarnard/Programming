@@ -1,0 +1,103 @@
+# Default Dungeon universe file
+# The following universe file is included with all installations of
+# Dungeon. Feel free to experiment with it. The document format is YAML.
+# This universe was written by Alexander Breen (alexander.breen@gmail.com).
+# Your use of it coincides with an acknowledgement that you will not hold
+# me responsible if something terrible happens.
+
+# Every Dungeon universe file consists of three YAML documents: the first is
+# a preamble, containing settings for the entire universe. The second is the
+# list of rooms in the universe. The third is the list of items.
+# Each object in the universe has a unique string ID that you may choose here.
+
+weather:    true        # Whether to generate weather in the universe
+spawn:      henge       # The string ID of the room in which players start
+timescale:  6           # Multiplier used to determine the game tick speed
+
+--- # rooms
+
+henge:
+  name: henge
+  exits:
+    north: henge_cliff
+
+  description:  >
+    You are in the center of a large henge, perhaps as wide as fifty meters
+    in diameter, with a circle of huge, stone monoliths standing proudly around
+    you. The stones have the worn, rounded appearance of centuries-old building
+    material. From what you can see, the henge is perched atop a rocky cliff,
+    whose northern edge overlooks some water. To the south there is a forest.
+
+  detail:
+    day:
+      clear: >
+        The air is surprisingly still inside the henge.
+      rain: >
+        Rain darkens the monoliths and puddles inside the stone circle.
+      snow: >
+        Snow gathers atop the monoliths and against their wide bases.
+      fog: >
+        The other end of the henge is obscured by fog, turning the distant
+        monoliths into faint, gray shoulders.
+
+    night:
+      clear: >
+        It is impossibly quiet and still here. The moonlight shines
+        gently on the monoliths.
+      rain: >
+        It is difficult to see the monoliths in the darkness, but you can
+        hear the rain pattering on their stony heads.
+      snow: >
+        In the darkness you can still see snow piling up on the monoliths.
+      fog: >
+        A cold mist hangs just over the ground, pooling in the center
+        of the henge.
+
+
+henge_cliff:
+  name: cliff
+  exits:
+    south: henge
+
+  description:  >
+    You are at the edge of a majestic cliff, too rocky and windy to support
+    the growth of trees, shrubs, or grass. You can't see the base, but
+    it's probably a rocky shore. A dark green, choppy ocean extends
+    from the base of the cliff.
+
+  detail:
+    day:
+      clear: >
+        You can also see a peninsula far to the northeast, and a small
+        island with tall trees to the north.
+      rain: >
+        Rain obscures most of your view outwards. Though the ocean is at the
+        base of the cliff, you can hear the rain pattering on its surface.
+      snow: >
+        Snow whirls out and over the cliff. Past the cliff base you can
+        see only white.
+      fog: >
+        The cliff edge is barely visible through the fog. It would be too
+        easy to fall if you were not careful.
+
+    night:
+      clear: >
+        The shores along a peninsula to the northeast are visible in
+        the moonlight. To the north, a small island with tall trees is
+        visible, obscuring reflections of moonlight behind it.
+      rain: >
+        You cannot see much past the cliff, just darkness and rain.
+      snow: >
+        Snow is gathering at the cliff edge, but it is too dark to see
+        very well.
+      fog: >
+        A cold mist is spilling over the cliff edge, illuminated yellow-gray
+        by moonlight.
+
+
+--- # items
+
+skeleton_key:
+  name:         skeleton key
+  description:  Made of copper.
+  in: [henge]
