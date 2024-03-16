@@ -33,7 +33,6 @@ def decode(message_file):
 
 
 # Example usage:
-message_file = 'B:\\Documents\\GitHub\\coding_qual_input.txt'  # Path to the encoded message file
-message_file = 'B:\\Documents\\GitHub\\message_file2.txt'  # Path to the encoded message file
+message_file = 'message_file.txt'  # Path to the encoded message file
 decoded_message = decode(message_file)
 print(decoded_message)
